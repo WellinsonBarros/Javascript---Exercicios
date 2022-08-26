@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgb(129, 129, 197);
+            color: white; /* comentário */
+            font: normal 20pt Arial;
+        }
+
+        h1 {
+            color: rgb(226, 226, 67);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    <p>Já me livrei da maldição</p> <!-- comentário -->
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')
+        document.writeln(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras!<br/>`)
+        document.writeln(`Seu nome em maiúculas é ${nome.toUpperCase()}<br/>`)
+        document.writeln(`Seu nome em minúscula é ${nome.toLowerCase()}<br/>`)
+    </script>
+</body>
+</html>
